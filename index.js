@@ -92,7 +92,8 @@ function getAllWinners(data, getFinals, getWinners) {
     // })
     // return stringArray
 
-    return getFinals(data).map((match, index) => `In ${match.Year}, ${getWinners(data, getFinals)[index]} won the world cup!`)
+    const winners = getWinners(data, getFinals);
+    return getFinals(data).map((match, index) => `In ${match.Year}, ${winners[index]} won the world cup!`)
 
 };
 
