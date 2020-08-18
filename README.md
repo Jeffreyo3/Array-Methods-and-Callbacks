@@ -3,6 +3,7 @@
 ## Advanced JavaScript
 
 ## Array Methods and Callbacks
+*Note*: Please add the LIVE server extension to your visual studio code and use it for this project. https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer - this will make viewing your data easier. 
 
 ## Objectives
 
@@ -61,6 +62,12 @@ Find the file `index.js` and complete the tasks until all of your tests pass.
 
 You may want to use the [World Cup summary data](https://www.foxsports.com/soccer/fifa-world-cup/history) on Fox Sports to check your math as you go.
 
+### Task 2b: Exit Ticket
+
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/pHkwTDmFG4moZNJWy/64uEYwk5AxxRxE).
+
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
+
 ### Task 3: Stretch Goals
 
 After you have completed the requirements, create a new file called `stretch.js` and practice with Array methods more.
@@ -80,7 +87,7 @@ Your data lives in a file called `fifa.js`. In order to work with and use your d
 
 **What about ties?**
 
-In some cases, when the outcome of a game was decided by penalty kicks, the home team and away team will have the same number of goals scored. You can ignore ties for the purpose of this task, but you can also look to the "Win conditions" key  and splice out the winning team. (See example below)
+In some cases, when the outcome of a game was decided by penalty kicks, the home team and away team will have the same number of goals scored. You can ignore ties for the purpose of these tasks, but you can also look to the "Win conditions" key  and splice out the winning team as a stretch goal. (See example below)
 
 ```
 Win conditions": "France win on penalties (3 - 4)",
